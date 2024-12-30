@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/jluja3/Projects'
+let g:netrw_dirhist_1='/Users/jluja3/Projects/orders-customer.now-customer-feed/src/main/java/com/nike/now/etl'
+let g:netrw_dirhist_0='/Users/jluja3/Projects/orders-customer.now-customer-feed/src/main/java/com/nike/now/etl/config'
+let g:netrw_dirhist_9='/Users/jluja3/Projects/orders-customer.now-customer-feed/infra'
+let g:netrw_dirhist_8='/Users/jluja3/Projects/orders-customer.now-customer-feed/infra/bin'
+let g:netrw_dirhist_7='/Users/jluja3/Projects/orders-customer.now-customer-feed'
+let g:netrw_dirhist_6='/Users/jluja3/Projects/orders-customer.now-customer-feed/infra'
+let g:netrw_dirhist_5='/Users/jluja3/Projects/orders-customer.now-customer-feed'
+let g:netrw_dirhist_4='/Users/jluja3/Projects/orders-customer.now-customer-feed/src'
+let g:netrw_dirhist_3='/Users/jluja3/Projects/orders-customer.now-customer-feed/src/main'
