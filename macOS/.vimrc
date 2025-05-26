@@ -13,6 +13,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jremmen/vim-ripgrep'
 Plug 'vim-scripts/delek.vim'
 Plug 'sheerun/vim-polyglot'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " NOTE: not all deleks are equal! Use an old one like from vimscripts/delek.vim or flazz/vim-colorschemes
@@ -31,9 +32,28 @@ set showmatch	" Highlight matching brace
 " syntax highlighting for cinder files
 au BufNewFile,BufRead *.cinder set filetype=javascript
 
+" color fixes for visual selection
+highlight Normal ctermfg=248 ctermbg=16 guibg=black guifg=white
+highlight Visual term=bold cterm=bold ctermbg=234 ctermfg=NONE
+
 " color fix for parentheses highlighting
 highlight Matchparen ctermfg=black ctermbg=cyan
- 
+highlight Search ctermfg=black
+
+" color adjustments for folds and splits
+highlight VertSplit ctermfg=237 ctermbg=247
+highlight Folded ctermbg=237 ctermfg=33
+highlight FoldColumn ctermbg=237 ctermfg=33
+
+" color adjustments to make :Gvdiff less painful
+highlight DiffAdd ctermbg=235 ctermfg=28
+highlight DiffChange ctermbg=235 cterm=italic ctermfg=94
+highlight DiffText ctermbg=235 cterm=italic ctermfg=220
+highlight DiffDelete ctermbg=235 ctermfg=88
+
+" other miscellaneous color adjustments
+highlight comment cterm=italic ctermfg=88
+
 set hlsearch	" Highlight all search results
 set smartcase	" Enable smart-case search
 set ignorecase	" Always case-insensitive
